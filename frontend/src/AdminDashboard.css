@@ -1,0 +1,157 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+}
+
+.admin-options-icon {
+  cursor: pointer;
+}
+
+.admin-options {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #ddd;
+  z-index: 1;
+}
+
+.admin-options button {
+  display: block;
+  width: 100%;
+  text-align: right;
+  background: none;
+  border: none;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #333;
+}
+
+.admin-options button:hover {
+  background-color: #f9f9f9;
+}
+
+.dashboard-main {
+  width: 80%; /* Adjust as needed */
+  margin: 20px 0;
+}
+
+.admin2-section {
+  margin-bottom: 20px;
+}
+
+.dashboard2-summary {
+  display: flex;
+  justify-content: space-around;
+}
+
+.summary2-item {
+  text-align: center;
+}
+
+.property-listings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.property-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.user-management {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-item {
+  text-align: center;
+  margin: 10px;
+}
+.admin-buttons button {
+  display: flex;
+  flex-direction: column;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: solid;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.admin-buttons button:hover {
+background-color: #333;
+}
+
+.logout-button {
+  background-color: #ff5f5f;
+  color: #fff;
+}
+
+/* Add these styles to your existing CSS */
+
+/* Dashboard Card Styles */
+.admin2-section {
+  background-color: #f0f8ff; /* Light blue background color */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.admin2-section:hover {
+  background-color: #add8e6; /* Lighter blue background color on hover */
+}
+
+/* Property Item Styles */
+.property-item,
+.user-item {
+  background-color: #90ee90; /* Light green background color */
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.property-item:hover,
+.user-item:hover {
+  background-color: #8fbc8f; /* Lighter green background color on hover */
+}
+
+/* Add any other styles for text, headers, images, etc., as needed */
+.property-listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* To evenly distribute items */
+}
+
+.property-item {
+  width: calc(25% - 20px); /* 25% width for each item with margin */
+  margin-bottom: 20px; /* Margin between items */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.property-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* Margin below the image */
+}

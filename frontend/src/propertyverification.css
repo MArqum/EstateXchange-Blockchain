@@ -1,0 +1,49 @@
+.tab-button {
+    margin-right: 10px; /* Adjust the value to your desired gap */
+    border-radius: 5px; /* Adjust the value to your desired border radius */
+  }
+
+
+  .property-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  
+  .property-item {
+    background-color: #90ee90; /* Light green background color */
+    width: 220px;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .property-item img {
+    width: 100%;
+    height: auto;
+    max-width: 190px; /* Ensure images don't get too large */
+    margin-bottom: 16px;
+  }
+  
+  .property-item h3 {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .property-item p {
+    margin: 4px 0;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  

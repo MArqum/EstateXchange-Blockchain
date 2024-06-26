@@ -1,0 +1,41 @@
+/* Investors.css */
+.investors-container {
+    height: 80vh!important;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .investors-list {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+  }
+  
+  .investor-card {
+    width: 48%;
+    
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #dbe4f0; /* Default background color */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .investor-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .investor-card p {
+    color: #666;
+  }
+  .investor-card:hover {
+    background-color: #8ab6d6; /* Background color on hover */
+  }
+  
